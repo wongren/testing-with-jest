@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Lab 5 MAU",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongren/testing-with-jest.git"
+  },
+  "author": "Emil W",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wongren/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/wongren/testing-with-jest#readme"
+}
