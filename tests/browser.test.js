@@ -25,7 +25,7 @@ test('The stack should be empty in the beginning', async () => {
 
 test('Check if we got the correct h1 tag', async () => {
     let h1 = await driver.findElement(By.tagName("h1")).getText();
-    expect(h1).toEqual("hej");
+    expect(h1).toEqual("Här kan vi leka med en stack");
 });
 
 describe('Clicking "Pusha till stacken"', () => {
