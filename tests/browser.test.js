@@ -23,6 +23,11 @@ test('The stack should be empty in the beginning', async () => {
 	expect(stack).toEqual("n/a");
 });
 
+test('Check if we got the correct h1 tag', async () => {
+    let h1 = await driver.findElement(By.tagName("h1")).getText();
+    expect(h1).toEqual("hej");
+});
+
 describe('Clicking "Pusha till stacken"', () => {
 	it('should open a prompt box', async () => {
 		let push = await driver.findElement(By.id('push'));
